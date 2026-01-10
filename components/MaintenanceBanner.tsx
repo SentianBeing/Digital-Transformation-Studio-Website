@@ -24,15 +24,15 @@ const MaintenanceBanner: React.FC = () => {
 
     return (
         <div
-            className={`fixed bottom-8 left-1/2 -translate-x-1/2 z-[100] bg-[#FF005E] text-white pl-6 pr-2 py-2 rounded-full shadow-lg flex items-center gap-4 transition-all duration-500 ease-in-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+            className={`fixed bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 z-[100] bg-[#FF005E] text-white pl-4 pr-2 py-3 md:pl-6 md:pr-2 md:py-2 rounded-2xl md:rounded-full shadow-lg flex items-center justify-between md:justify-start gap-3 md:gap-4 w-[90%] md:w-auto max-w-xl transition-all duration-500 ease-in-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
                 }`}
         >
-            <span className="text-sm font-medium whitespace-nowrap">
+            <span className="text-xs md:text-sm font-medium leading-tight md:leading-normal">
                 Site is undergoing maintenance and some parts may not function. Proceed if you wish.
             </span>
             <button
                 onClick={handleClose}
-                className="bg-white text-black rounded-full p-1.5 hover:bg-gray-200 transition-colors flex items-center justify-center"
+                className="bg-white text-black rounded-full p-1.5 hover:bg-gray-200 transition-colors flex-shrink-0 flex items-center justify-center"
                 aria-label="Close"
             >
                 <X size={14} strokeWidth={2.5} />
