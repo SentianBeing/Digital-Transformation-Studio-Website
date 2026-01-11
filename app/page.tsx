@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar';
+import Script from 'next/script';
 import Hero from '../components/Hero';
 import Clients from '../components/Clients';
 import CaseStudies from '../components/CaseStudies';
@@ -42,6 +43,11 @@ export default function Home() {
                 </main>
                 <Footer />
             </div>
+            <Script id="collect-chat" strategy="lazyOnload">
+                {`
+                    (function(w, d) { w.CollectId = "696333fc73f4a62840997597"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);
+                `}
+            </Script>
         </div>
     );
 }

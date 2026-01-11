@@ -5,10 +5,10 @@ const CaseStudies: React.FC = () => {
   const cases = [
     {
       title: "Nowo",
-      desc: "A Swedish fintech company specializing in retirement savings.",
+      desc: "A Swedish Medical company specializing in retirement savings.",
       // Using images that approximate the orange UI from the screenshot
-      img1: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?auto=format&fit=crop&q=80&w=400",
-      img2: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=400"
+      img1: "https://res.cloudinary.com/der2xk0cv/image/upload/v1768072350/image_4_2_abtlxc.png",
+      img2: "https://res.cloudinary.com/der2xk0cv/image/upload/v1768072352/image_4_1_sak5xp.png"
     },
     {
       title: "Nowo",
@@ -37,17 +37,17 @@ const CaseStudies: React.FC = () => {
             <div key={i} className="group cursor-pointer">
               {/* Card Container: Dark Gray Background with Rounded Corners */}
               <div className="relative aspect-[16/10] bg-[#1c1c1c] rounded-[2.5rem] overflow-hidden mb-10 flex items-center justify-center border border-white/[0.02] shadow-2xl transition-all duration-500 group-hover:border-[#FF005E]/20">
-                
+
                 {/* Overlapping Phone Mockups Simulation */}
                 <div className="relative w-full h-full flex items-center justify-center">
                   {/* Background Phone (Left) */}
                   <div className="absolute left-[18%] top-[28%] w-[38%] aspect-[9/19] z-0 transition-transform duration-700 group-hover:-translate-x-2 group-hover:-translate-y-1">
                     <div className="w-full h-full bg-[#111] rounded-[2rem] border-[6px] md:border-[8px] border-[#2a2a2a] overflow-hidden shadow-2xl">
                       <div className="w-full h-full bg-[#FFF5E6]">
-                        <img 
-                          src={item.img1} 
-                          className="w-full h-full object-cover opacity-90" 
-                          alt="Mobile App Interface Back" 
+                        <img
+                          src={item.img1}
+                          className="w-full h-full object-cover opacity-90"
+                          alt="Mobile App Interface Back"
                         />
                       </div>
                     </div>
@@ -57,10 +57,10 @@ const CaseStudies: React.FC = () => {
                   <div className="absolute left-[36%] top-[12%] w-[42%] aspect-[9/19] z-10 transition-transform duration-700 group-hover:translate-x-2 group-hover:translate-y-1">
                     <div className="w-full h-full bg-[#111] rounded-[2.5rem] border-[7px] md:border-[10px] border-[#222] overflow-hidden shadow-[0_40px_80px_-20px_rgba(0,0,0,0.9)]">
                       <div className="w-full h-full bg-orange-500">
-                        <img 
-                          src={item.img2} 
-                          className="w-full h-full object-cover" 
-                          alt="Mobile App Interface Front" 
+                        <img
+                          src={item.img2}
+                          className="w-full h-full object-cover"
+                          alt="Mobile App Interface Front"
                         />
                       </div>
                     </div>
