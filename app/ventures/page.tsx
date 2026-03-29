@@ -25,7 +25,7 @@ export default function VenturesPage() {
           {/* Image — left */}
           <div className="relative w-full aspect-[4/3] overflow-hidden">
             <Image
-              src="https://picsum.photos/seed/salhurry-team/800/600"
+              src="https://res.cloudinary.com/dyc4fcvot/image/upload/v1774776762/compressed_1b4c4e78-74b1-4eee-88cc-0b410707bf52_uzakmi.webp"
               alt="Salhurry team"
               fill
               className="object-cover"
