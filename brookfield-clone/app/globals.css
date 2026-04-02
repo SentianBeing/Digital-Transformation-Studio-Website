@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+}
+
+:root {
+  --color-brand: #FF0066;
+  --color-brand-hover: #E6005C;
+  --color-text-primary: #111111;
+  --color-text-secondary: #6B7280;
+  --color-border: #E5E7EB;
+  --color-bg-section: #F7F7F7;
+}
+
+@layer base {
+  body {
+    @apply text-[#111111] bg-white;
+  }
+}
