@@ -17,6 +17,17 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: 'DiveGrid | We Build What\'s Next',
   description: 'DiveGrid is a multi-venture company that builds, scales, and backs ambitious businesses across sales & marketing, construction, and infrastructure.',
+  icons: {
+    icon: [
+      { url: '/divegrid-fevicon/favicon.ico', sizes: '32x32' },
+      { url: '/divegrid-fevicon/favicon.svg', type: 'image/svg+xml' },
+      { url: '/divegrid-fevicon/favicon-96x96.png', type: 'image/png', sizes: '96x96' },
+    ],
+    apple: [
+      { url: '/divegrid-fevicon/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
+  manifest: '/divegrid-fevicon/site.webmanifest',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
