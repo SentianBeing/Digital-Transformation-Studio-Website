@@ -64,19 +64,19 @@ export default function ContactPage() {
                   <span className="mt-0.5 flex-shrink-0 text-[#FF0066]">
                     <Mail size={18} />
                   </span>
-                  <span className="text-[#6B7280] text-sm">hello@divegrid.co</span>
+                  <span className="text-[#6B7280] text-sm">info@divegrid.in</span>
                 </li>
                 <li className="flex items-start gap-4">
                   <span className="mt-0.5 flex-shrink-0 text-[#FF0066]">
                     <Phone size={18} />
                   </span>
-                  <span className="text-[#6B7280] text-sm">+27 (0) 11 000 0000</span>
+                  <span className="text-[#6B7280] text-sm">+91 62826 87001</span>
                 </li>
                 <li className="flex items-start gap-4">
                   <span className="mt-0.5 flex-shrink-0 text-[#FF0066]">
                     <MapPin size={18} />
                   </span>
-                  <span className="text-[#6B7280] text-sm">Johannesburg, South Africa</span>
+                  <span className="text-[#6B7280] text-sm">JS Arcade, MC Rd, Kilimanoor, Trivandrum</span>
                 </li>
               </ul>
             </div>
@@ -87,14 +87,14 @@ export default function ContactPage() {
               <h3 className="text-lg font-bold text-[#111111] mb-5">Venture Enquiries</h3>
               <div className="space-y-3">
                 <a
-                  href="mailto:salhurry@divegrid.co"
+                  href="mailto:info@salhurry.in"
                   className="flex items-center justify-between border border-[#E5E7EB] p-4 hover:border-[#FF0066] transition-colors group"
                 >
                   <div>
                     <p className="text-[11px] font-bold uppercase tracking-widest text-[#6B7280] mb-1">
                       Salhurry Enquiries
                     </p>
-                    <p className="text-sm text-[#111111] font-medium">salhurry@divegrid.co</p>
+                    <p className="text-sm text-[#111111] font-medium">info@salhurry.in</p>
                   </div>
                   <ArrowRight
                     size={16}
@@ -102,14 +102,14 @@ export default function ContactPage() {
                   />
                 </a>
                 <a
-                  href="mailto:build@divegrid.co"
+                  href="mailto:info@divegrid.in"
                   className="flex items-center justify-between border border-[#E5E7EB] p-4 hover:border-[#FF0066] transition-colors group"
                 >
                   <div>
                     <p className="text-[11px] font-bold uppercase tracking-widest text-[#6B7280] mb-1">
                       Infrastructure Projects
                     </p>
-                    <p className="text-sm text-[#111111] font-medium">build@divegrid.co</p>
+                    <p className="text-sm text-[#111111] font-medium">info@divegrid.in</p>
                   </div>
                   <ArrowRight
                     size={16}
